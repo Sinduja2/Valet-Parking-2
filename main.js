@@ -68,7 +68,7 @@ function my_keydown(e)
 
 function up()
 {
-	if(greencar_y>=0)
+	if(greencar_y>=100)
     {
 		greencar_y = greencar_y-10;
         console.log("when up arrow is pressed, x=" + greencar_x + "| y= "+ greencar_y);
@@ -79,7 +79,7 @@ function up()
 
 function down()
 {
-    if(greencar_y<=500)
+    if(greencar_y<=220)
     {
         greencar_y=greencar_y+10;
         console.log("when down arrow is pressed, x=" + greencar_x + "| y= "+ greencar_y);
